@@ -38,7 +38,7 @@ module Api::V1
 
     private
         def list_params
-          params.require(:list).permit(:title, :body)
+          params.require(:list).permit(:title, :description)
         end
 	end
 end
